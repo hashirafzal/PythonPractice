@@ -17,7 +17,7 @@ Input: n = 25
 Output: 1389537
 
 
-##
+``` 
 class Solution(object):
     def tribonacci(self, n):
         """
@@ -34,3 +34,4 @@ class Solution(object):
             t1=t2
             t2=t3
         return t2  
+``` 
